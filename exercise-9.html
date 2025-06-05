@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Exercise 9</title></head>
+<body>
+<input type="number" id="numberInput" placeholder="Enter a number" />
+<button onclick="showOutput()">Enter</button>
+<p id="output"></p>
+<script>
+    function showOutput() {
+        let num = document.getElementById('numberInput').value;
+        document.getElementById('output').textContent = "You entered: " + num;
+    }
+</script>
+</body>
+</html>

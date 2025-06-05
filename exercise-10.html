@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Exercise 10</title></head>
+<body>
+<input type="number" id="numberInput" placeholder="Enter a number" />
+<button onclick="calculateSquare()">Square</button>
+<p id="output"></p>
+<script>
+    function calculateSquare() {
+        let num = document.getElementById('numberInput').value;
+        let result = num * num;
+        document.getElementById('output').textContent = "The square is: " + result;
+    }
+</script>
+</body>
+</html>

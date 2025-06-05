@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Exercise 5</title></head>
+<body>
+<script>
+    function oldFunction() {
+        return function () {
+            alert("This is an original function.");
+        };
+    }
+    let myFunction = oldFunction();
+    myFunction();
+</script>
+</body>
+</html>
